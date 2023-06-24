@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+.hero-img{
+    background-image: url(images/banner.png);
+    height: 500px;
+    background-size: cover;
+    width: 100%;
+
+}
+.main-icons{
+    background-color: rgb(230, 228, 228);
+    padding: 18px;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.prod-icons{
+    background-color: black;
+    padding: 18px;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: white;
+}
+
+p{
+    color: rgb(173, 167, 167);
+}
+.cat-img{
+    height: 300px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.pd-img{
+    height: 300px ;
+    border-radius: 10px;
+    width: 100%;
+}
+.halfbanner{
+    background-image: url(images/halfbanner.png);
+    height: 300px;
+    background-size: cover;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .button span {
+    margin-right: 10px;
+  }
+  
+  .button::after {
+    content: '\2192'; /* Arrow symbol */
+    margin-left: 10px;
+  }
+  
+  /* Optional: Hover and focus styles */
+  .button:hover,
+  .button:focus {
+    background-color: #eaeaea;
+    outline: none;
+  }
+  .box{
+    background-color: black;
+     border-radius: 10px; 
+     padding: 10px; 
+     color: white;
+     padding-left: 15px;
+     padding-right: 15px;
+  }
+  .qty-ele{
+    padding: 10px; 
+     
+     padding-left: 5px;
+     padding-right: 5px;
+     font-size: 24px;
+     font-weight: 700;
+     color: grey;
+  }
+  .button-black {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(12, 11, 11);
+    border-radius: 10px;
+    padding: 10px 20px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 25px;
+  }
+  
+  .button-black span {
+    margin-right: 10px;
+  }
+  
+  
+  
+  /* Optional: Hover and focus styles */
+  .button-black:hover,
+  .button-black:focus {
+    background-color: #eaeaea;
+    outline: none;
+  }
